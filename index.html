@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ALGORITHM VISUALIZER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>ALGORITHMS VISUALIZER</h1>
+
+    <select class="btn" id="select-algorithm">
+        
+    <option value="dijkstra">Dijkstra</option>
+    <option value="bfs">BFS</option>
+    <option value="dfs">DFS</option>
+    <option value="astar">A*</option>
+
+    </select>
+
+    <button class="btn" id="start-button">Run</button>
+    <button class="btn" id="stop-button">Stop</button>
+    <button class="btn" id="reset-button">Reset Grid</button>
+    <button class="btn" id="change-start-button">Change start node</button>
+    <button class="btn" id="change-end-button">Change end node</button>
+
+    <div id="stats">
+        Visited Nodes: <span id="visited-count">0</span>
+        | 
+        Path Length: <span id="path-length">0</span>
+    </div>
+    <div id="grid-container"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

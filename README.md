@@ -28,7 +28,7 @@ An interactive visual representation of the pathfinding algorithms built with HT
 - Weighted Nodes
 - Performance comparison
 
-##Live Demo
+## Live Demo
 https://adrianapaspuel.github.io/Graph-Traversal-Algorithms-Visualizer/
 
 Created by Adriana Paspuel
